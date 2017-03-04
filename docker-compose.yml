@@ -1,0 +1,10 @@
+version: '2'
+services:
+  template:
+    build: .
+    image: flub78/template
+    ports:
+      - "7080:80"
+      - "7443:443"
+      - "7306:3306"
+      - "7432:5432"
